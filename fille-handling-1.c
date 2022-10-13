@@ -1,0 +1,68 @@
+//WRITING TO A FILE
+#include <stdio.h>
+int main()
+{
+	FILE *fp;
+	fp=fopen("me.doc","a");
+	putc('N',fp);
+	putc('A',fp);
+	putc('M',fp);
+	putc('E',fp);
+	putc('\t',fp);
+	putc('B',fp);
+	putc('U',fp);
+	putc('W',fp);
+	putc('E',fp);
+	putc('M',fp);
+	putc('B',fp);
+	putc('O',fp);
+	putc('\t',fp);
+	putc('J',fp);
+	putc('U',fp);
+	putc('L',fp);
+	putc('I',fp);
+	putc('U',fp);
+	putc('S',fp);
+	putc('\n',fp);
+	putc('A',fp);
+	putc('G',fp);
+	putc('E',fp);
+	putc('\t',fp);
+	putc('2',fp);
+	putc('0',fp);
+	putc('\n',fp);
+	putc('R',fp);
+	putc('E',fp);
+	putc('G',fp);
+	putc('I',fp);
+	putc('S',fp);
+	putc('T',fp);
+	putc('R',fp);
+	putc('A',fp);
+	putc('T',fp);
+	putc('I',fp);
+	putc('O',fp);
+	putc('N',fp);
+	putc(' ',fp);
+	putc('N',fp);
+	putc('O',fp);
+	putc(':',fp);
+	putc('\t',fp);
+	putc('1',fp);
+	putc('8',fp);
+	putc('/',fp);
+	putc('U',fp);
+	putc('/',fp);
+	putc('2',fp);
+	putc('0',fp);
+	putc('9',fp);
+	putc('4',fp);
+	putc('6',fp);
+	putc('/',fp);
+	putc('E',fp);
+	putc('V',fp);
+	putc('E',fp);
+	putc('\n',fp);
+	fclose(fp);
+	return 0;
+}
